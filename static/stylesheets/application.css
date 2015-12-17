@@ -674,111 +674,133 @@ body {
   height: 100%;
   top: 0;
   left: 0; }
-/* line 113, general.css.sass */
+  /* line 113, general.css.sass */
+  .parallax-layers .bg-layer img {
+    height: 104%;
+    max-width: none;
+    width: 100%; }
+/* line 118, general.css.sass */
 .parallax-layers .sky-layer {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0; }
-  /* line 119, general.css.sass */
+  /* line 124, general.css.sass */
   .parallax-layers .sky-layer img {
     width: 100%; }
-/* line 124, general.css.sass */
+/* line 129, general.css.sass */
 .parallax-layers .spruces-layer:before,
 .parallax-layers .house-layer:before {
   content: "";
   display: block;
   padding-top: 88%; }
-/* line 129, general.css.sass */
+/* line 134, general.css.sass */
 .parallax-layers .spruces-layer img,
 .parallax-layers .house-layer img {
   position: absolute;
   bottom: 22px; }
-/* line 133, general.css.sass */
+/* line 138, general.css.sass */
 .parallax-layers .spruces-layer {
-  width: 41.6%;
+  width: 42.6%;
   right: 0;
   top: 0; }
-  /* line 138, general.css.sass */
+  /* line 143, general.css.sass */
   .parallax-layers .spruces-layer img {
     right: 0; }
-/* line 141, general.css.sass */
+/* line 146, general.css.sass */
 .parallax-layers .house-layer {
-  width: 40.7%;
+  width: 41.7%;
   left: 0;
   top: 0; }
-  /* line 146, general.css.sass */
+  /* line 151, general.css.sass */
   .parallax-layers .house-layer img {
     left: 0; }
-/* line 149, general.css.sass */
+/* line 154, general.css.sass */
 .parallax-layers .snow-layer {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0; }
-  /* line 155, general.css.sass */
+  /* line 160, general.css.sass */
   .parallax-layers .snow-layer img {
     width: 94%; }
-/* line 158, general.css.sass */
+/* line 163, general.css.sass */
 .parallax-layers .snowman-left-layer {
   width: 37.7%;
   bottom: -4%;
   left: -8%;
   z-index: 230; }
-/* line 164, general.css.sass */
+/* line 169, general.css.sass */
 .parallax-layers .snowman-right-layer {
   width: 37.7%;
   right: -9%;
   bottom: -5%;
   z-index: 230; }
-/* line 170, general.css.sass */
+/* line 175, general.css.sass */
 .parallax-layers .snowman-center-layer {
-  -moz-transition: -moz-transform 2.5s ease-in;
-  -o-transition: -o-transform 2.5s ease-in;
-  -webkit-transition: -webkit-transform 2.5s ease-in;
-  transition: transform 2.5s ease-in;
   -moz-transform: rotate(70deg);
   -ms-transform: rotate(70deg);
   -webkit-transform: rotate(70deg);
   transform: rotate(70deg);
+  -moz-transition: -moz-transform 2.4s ease-in;
+  -o-transition: -o-transform 2.4s ease-in;
+  -webkit-transition: -webkit-transform 2.4s ease-in;
+  transition: transform 2.4s ease-in;
   width: 11.9%;
   left: 95%;
   top: 65%;
   z-index: 200; }
-  /* line 179, general.css.sass */
+  /* line 184, general.css.sass */
   .parallax-layers .snowman-center-layer.step-0 {
     -moz-transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg); }
-  /* line 184, general.css.sass */
+  /* line 187, general.css.sass */
   .parallax-layers .snowman-center-layer.step-2 {
-    -moz-transition: -moz-transform 0.5s linear;
-    -o-transition: -o-transform 0.5s linear;
-    -webkit-transition: -webkit-transform 0.5s linear;
-    transition: transform 0.5s linear;
-    -moz-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg); }
-  /* line 188, general.css.sass */
+    -moz-transition: -moz-transform 0.3s linear;
+    -o-transition: -o-transform 0.3s linear;
+    -webkit-transition: -webkit-transform 0.3s linear;
+    transition: transform 0.3s linear;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  /* line 191, general.css.sass */
   .parallax-layers .snowman-center-layer.step-3 {
     -moz-transition: -moz-transform 0.5s linear;
     -o-transition: -o-transform 0.5s linear;
     -webkit-transition: -webkit-transform 0.5s linear;
     transition: transform 0.5s linear;
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg); }
-  /* line 192, general.css.sass */
-  .parallax-layers .snowman-center-layer.step-4 {
     -moz-transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg); }
+  /* line 195, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-4 {
+    -moz-transform: rotate(17deg);
+    -ms-transform: rotate(17deg);
+    -webkit-transform: rotate(17deg);
+    transform: rotate(17deg);
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none; }
+  /* line 199, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-6 {
+    -moz-transform: scale(-1, 1) rotate(20deg);
+    -ms-transform: scale(-1, 1) rotate(20deg);
+    -webkit-transform: scale(-1, 1) rotate(20deg);
+    transform: scale(-1, 1) rotate(20deg);
+    z-index: 140; }
+  /* line 204, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-7 {
+    -moz-transform: scale(1, 1) rotate(70deg);
+    -ms-transform: scale(1, 1) rotate(70deg);
+    -webkit-transform: scale(1, 1) rotate(70deg);
+    transform: scale(1, 1) rotate(70deg); }
 
-/* line 196, general.css.sass */
+/* line 207, general.css.sass */
 .badge-container {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -789,20 +811,20 @@ body {
   left: 50%;
   position: fixed;
   z-index: 160; }
-  /* line 205, general.css.sass */
+  /* line 216, general.css.sass */
   .badge-container img {
     max-width: 100%; }
 
-/* line 208, general.css.sass */
+/* line 219, general.css.sass */
 .flip-container {
   perspective: 1000; }
-  /* line 212, general.css.sass */
+  /* line 223, general.css.sass */
   .flip-container.loaded .flipper {
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg); }
-  /* line 215, general.css.sass */
+  /* line 226, general.css.sass */
   .flip-container .flipper {
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
@@ -810,13 +832,13 @@ body {
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative; }
-    /* line 221, general.css.sass */
+    /* line 232, general.css.sass */
     .flip-container .flipper:before {
       content: "";
       display: block;
       padding-top: 101%; }
 
-/* line 226, general.css.sass */
+/* line 237, general.css.sass */
 .front,
 .back {
   backface-visibility: hidden;
@@ -826,14 +848,14 @@ body {
   width: 100%;
   height: 100%; }
 
-/* line 235, general.css.sass */
+/* line 246, general.css.sass */
 .front {
   -moz-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
   z-index: 2; }
-  /* line 240, general.css.sass */
+  /* line 251, general.css.sass */
   .front .audio-load-progress {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -846,13 +868,13 @@ body {
     font-size: 5vh;
     color: #fff; }
 
-/* line 250, general.css.sass */
+/* line 261, general.css.sass */
 .back {
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); }
-  /* line 253, general.css.sass */
+  /* line 264, general.css.sass */
   .back .leds {
     position: absolute;
     top: -3%;
@@ -860,25 +882,25 @@ body {
     width: 108%;
     height: 107%;
     max-width: none; }
-    /* line 261, general.css.sass */
+    /* line 272, general.css.sass */
     .back .leds > img {
       width: 100%;
       height: 100%;
       position: absolute;
       top: 0;
       left: 0; }
-  /* line 268, general.css.sass */
+  /* line 279, general.css.sass */
   .back .flares-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-    /* line 275, general.css.sass */
+    /* line 286, general.css.sass */
     .back .flares-container .flare {
       position: absolute;
       width: 19%; }
-      /* line 279, general.css.sass */
+      /* line 290, general.css.sass */
       .back .flares-container .flare.odd {
         -moz-animation-name: pulse-odd;
         -webkit-animation-name: pulse-odd;
@@ -895,7 +917,7 @@ body {
         -moz-animation-timing-function: ease-in-out;
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out; }
-      /* line 282, general.css.sass */
+      /* line 293, general.css.sass */
       .back .flares-container .flare.even {
         -moz-animation-name: pulse-even;
         -webkit-animation-name: pulse-even;
@@ -912,99 +934,99 @@ body {
         -moz-animation-timing-function: ease-in-out;
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out; }
-      /* line 285, general.css.sass */
+      /* line 296, general.css.sass */
       .back .flares-container .flare.flare-1 {
         left: -9%;
         top: 20%; }
-      /* line 289, general.css.sass */
+      /* line 300, general.css.sass */
       .back .flares-container .flare.flare-2 {
         left: 4%;
         top: 18%; }
-      /* line 293, general.css.sass */
+      /* line 304, general.css.sass */
       .back .flares-container .flare.flare-3 {
         left: 5%;
         top: 3%; }
-      /* line 297, general.css.sass */
+      /* line 308, general.css.sass */
       .back .flares-container .flare.flare-4 {
         left: 21%;
         top: 1%; }
-      /* line 301, general.css.sass */
+      /* line 312, general.css.sass */
       .back .flares-container .flare.flare-5 {
         left: 29%;
         top: -8%; }
-      /* line 305, general.css.sass */
+      /* line 316, general.css.sass */
       .back .flares-container .flare.flare-6 {
         left: 42%;
         top: -3%; }
-      /* line 309, general.css.sass */
+      /* line 320, general.css.sass */
       .back .flares-container .flare.flare-7 {
         left: 54%;
         top: -6%; }
-      /* line 313, general.css.sass */
+      /* line 324, general.css.sass */
       .back .flares-container .flare.flare-8 {
         left: 67%;
         top: 0%; }
-      /* line 317, general.css.sass */
+      /* line 328, general.css.sass */
       .back .flares-container .flare.flare-9 {
         left: 76%;
         top: 9%; }
-      /* line 321, general.css.sass */
+      /* line 332, general.css.sass */
       .back .flares-container .flare.flare-10 {
         left: 87%;
         top: 17%; }
-      /* line 325, general.css.sass */
+      /* line 336, general.css.sass */
       .back .flares-container .flare.flare-11 {
         left: 86%;
         top: 31%; }
-      /* line 329, general.css.sass */
+      /* line 340, general.css.sass */
       .back .flares-container .flare.flare-12 {
         left: 92%;
         top: 45%; }
-      /* line 333, general.css.sass */
+      /* line 344, general.css.sass */
       .back .flares-container .flare.flare-13 {
         left: 81%;
         top: 53%; }
-      /* line 337, general.css.sass */
+      /* line 348, general.css.sass */
       .back .flares-container .flare.flare-14 {
         left: 83%;
         top: 68%; }
-      /* line 341, general.css.sass */
+      /* line 352, general.css.sass */
       .back .flares-container .flare.flare-15 {
         left: 72%;
         top: 74%; }
-      /* line 345, general.css.sass */
+      /* line 356, general.css.sass */
       .back .flares-container .flare.flare-16 {
         left: 65%;
         top: 86%; }
-      /* line 349, general.css.sass */
+      /* line 360, general.css.sass */
       .back .flares-container .flare.flare-17 {
         left: 49%;
         top: 81%; }
-      /* line 353, general.css.sass */
+      /* line 364, general.css.sass */
       .back .flares-container .flare.flare-18 {
         left: 37%;
         top: 91%; }
-      /* line 357, general.css.sass */
+      /* line 368, general.css.sass */
       .back .flares-container .flare.flare-19 {
         left: 26%;
         top: 82%; }
-      /* line 361, general.css.sass */
+      /* line 372, general.css.sass */
       .back .flares-container .flare.flare-20 {
         left: 11%;
         top: 81%; }
-      /* line 365, general.css.sass */
+      /* line 376, general.css.sass */
       .back .flares-container .flare.flare-21 {
         left: 2%;
         top: 71%; }
-      /* line 369, general.css.sass */
+      /* line 380, general.css.sass */
       .back .flares-container .flare.flare-22 {
         left: 3%;
         top: 59%; }
-      /* line 373, general.css.sass */
+      /* line 384, general.css.sass */
       .back .flares-container .flare.flare-23 {
         left: -8%;
         top: 46%; }
-      /* line 377, general.css.sass */
+      /* line 388, general.css.sass */
       .back .flares-container .flare.flare-24 {
         left: -3%;
         top: 36%; }
