@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en-us"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en-us"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9" lang="en-us"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10 lt-ie9" lang="en-us"> <![endif]-->
+<!--[if lt IE 10]> <html class="no-js lt-ie10" lang="en-us"> <![endif]-->
+<!--[if !IE]> > <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <title>Middleman is Watching</title>
+    <meta charset='utf-8' content='text/html' http-equiv='content-type'>
+    <meta content='ie=edge,chrome=1' http-equiv='x-ua-compatible'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport'>
+    <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1' media='(device-height: 568px)' name='viewport'>
+    <meta content='yes' name='apple-mobile-web-app-capable'>
+    <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <link href='/images/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
+    <link href='/images/apple-touch-icon-57x57-precomposed.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+    <link href='/images/apple-touch-icon-72x72-precomposed.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+    <link href='/images/apple-touch-icon-114x114-precomposed.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+    <link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+    <script>
+      window.onAudioLoadStart = function(el) {
+        el.pause();
+      };
+      
+      window.onAudioLoaded = function(el) {
+        el.play();
+        document.getElementById('badge-container').className += ' loaded';
+      };
+    </script>
+  </head>
+  <body class='index'>
+    <audio autoplay='true' id='audio' onloadeddata='window.onAudioLoaded(this)' onloadstart='window.onAudioLoadStart(this)'>
+      <source src='http://www.singing-bell.com/wp-content/uploads/2013/09/Jingle-Bells-Singing-Bell.mp3' type='audio/mp3'>
+    </audio>
+    <div class='header'>
+      <a class='link-button clipboard-button button'>
+        <img class="bg-image bg-regular" src="images/link.png" />
+        <img class="bg-image bg-hover" src="images/link-hover.png" />
+        <span class='text'>
+          Скопировать ссылку
+        </span>
+      </a>
+      <a class='mute-button button loud'>
+        <img class="bg-image bg-regular bg-loud" src="images/sound.png" />
+        <img class="bg-image bg-hover bg-loud" src="images/sound-hover.png" />
+        <img class="bg-image bg-regular bg-muted" src="images/sound-muted.png" />
+        <img class="bg-image bg-hover bg-muted" src="images/sound-muted-hover.png" />
+        <span class='text text-loud'>
+          Убрать музыку
+        </span>
+        <span class='text text-muted'>
+          Включить музыку
+        </span>
+      </a>
+      <a class='logo' href='#'>
+        <img src="images/logo.png" />
+      </a>
+    </div>
+    <div class='border'>
+      <img src="images/border.png" />
+    </div>
+    <div class='parallax-layers'>
+      <div class='bg-layer layer' data-parallaxify-range='-8'>
+        <img src="images/background.jpg" />
+      </div>
+      <div class='sky-layer layer' data-parallaxify-range='-8'>
+        <img src="images/sky.jpg" />
+      </div>
+      <div class='spruces-layer layer' data-parallaxify-range='-4'>
+        <img src="images/spruces.png" />
+      </div>
+      <div class='house-layer layer' data-parallaxify-range='-4'>
+        <img src="images/house.png" />
+      </div>
+      <div class='snow-layer layer' data-parallaxify-range='-12'>
+        <img src="images/snow.png" />
+      </div>
+      <div class='snowman-left-layer layer' data-parallaxify-range='14'>
+        <img src="images/snowman-left.png" />
+      </div>
+      <div class='snowman-right-layer layer' data-parallaxify-range='14'>
+        <img src="images/snowman-right.png" />
+      </div>
+      <div class='snowman-center-layer layer'>
+        <img src="images/snowman-center.png" />
+      </div>
+    </div>
+    <div class='badge-container flip-container' id='badge-container'>
+      <div class='flipper'>
+        <div class='badge-content front'>
+          <img src="images/circle-bg.png" />
+          <div class='audio-load-progress'>
+            <span class='value'>
+              0
+            </span>
+            %
+          </div>
+        </div>
+        <div class='badge-content back'>
+          <img src="images/circle.png" />
+          <div class='leds-container'>
+            <img class="leds" src="images/leds.png" />
+          </div>
+          <div class='flares-container'>
+            <img class="flare flare-1 odd" src="images/flare.png" />
+            <img class="flare flare-2 even" src="images/flare.png" />
+            <img class="flare flare-3 odd" src="images/flare.png" />
+            <img class="flare flare-4 even" src="images/flare.png" />
+            <img class="flare flare-5 odd" src="images/flare.png" />
+            <img class="flare flare-6 even" src="images/flare.png" />
+            <img class="flare flare-7 odd" src="images/flare.png" />
+            <img class="flare flare-8 even" src="images/flare.png" />
+            <img class="flare flare-9 odd" src="images/flare.png" />
+            <img class="flare flare-10 even" src="images/flare.png" />
+            <img class="flare flare-11 odd" src="images/flare.png" />
+            <img class="flare flare-12 even" src="images/flare.png" />
+            <img class="flare flare-13 odd" src="images/flare.png" />
+            <img class="flare flare-14 even" src="images/flare.png" />
+            <img class="flare flare-15 odd" src="images/flare.png" />
+            <img class="flare flare-16 even" src="images/flare.png" />
+            <img class="flare flare-17 odd" src="images/flare.png" />
+            <img class="flare flare-18 even" src="images/flare.png" />
+            <img class="flare flare-19 odd" src="images/flare.png" />
+            <img class="flare flare-20 even" src="images/flare.png" />
+            <img class="flare flare-21 odd" src="images/flare.png" />
+            <img class="flare flare-22 even" src="images/flare.png" />
+            <img class="flare flare-23 odd" src="images/flare.png" />
+            <img class="flare flare-24 even" src="images/flare.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    <script src="javascripts/application.js" type="text/javascript"></script>
+  </body>
+</html>

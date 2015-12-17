@@ -1,0 +1,1010 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@-webkit-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-ms-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@font-face {
+  font-family: "RobotoCondensedRegular";
+  src: url('../../../fonts/RobotoCondensedRegular.eot');
+  src: url('../../../fonts/RobotoCondensedRegular.eot?#iefix') format('embedded-opentype'), url('../../../fonts/RobotoCondensedRegular.woff') format('woff'), url('../../../fonts/RobotoCondensedRegular.ttf') format('truetype'), url('../../../fonts/RobotoCondensedRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+@-webkit-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-ms-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+/*  Font mixins
+ */
+/* line 1, reset.css.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 22, reset.css.sass */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, reset.css.sass */
+body {
+  line-height: 1; }
+
+/* line 29, reset.css.sass */
+ol, ul {
+  list-style: none; }
+
+/* line 32, reset.css.sass */
+blockquote, q {
+  quotes: none; }
+
+/* line 35, reset.css.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 40, reset.css.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 44, reset.css.sass */
+a {
+  text-decoration: none; }
+
+/* line 47, reset.css.sass */
+button {
+  background-color: transparent;
+  border: none;
+  outline: none; }
+
+/* line 52, reset.css.sass */
+input:focus {
+  outline: none; }
+@-webkit-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes pulse-odd {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-ms-keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes pulse-even {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+/*  Font mixins
+ */
+/* line 4, general.css.sass */
+body {
+  font-family: "RobotoCondensedRegular";
+  background: #fff; }
+
+/* line 11, general.css.sass */
+.header .button {
+  position: fixed;
+  display: block;
+  top: 13%;
+  z-index: 300;
+  cursor: pointer;
+  width: 3.5%; }
+  /* line 19, general.css.sass */
+  .header .button:before {
+    content: "";
+    display: block;
+    padding-top: 100%; }
+  /* line 24, general.css.sass */
+  .header .button img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  /* line 30, general.css.sass */
+  .header .button .bg-regular {
+    display: block; }
+  /* line 33, general.css.sass */
+  .header .button .bg-hover {
+    display: none; }
+  /* line 36, general.css.sass */
+  .header .button .text {
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #37afea;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    font-size: 1vw;
+    visibility: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2; }
+  /* line 50, general.css.sass */
+  .header .button:hover .bg-regular {
+    display: none; }
+  /* line 53, general.css.sass */
+  .header .button:hover .bg-hover {
+    display: block; }
+  /* line 56, general.css.sass */
+  .header .button:hover .text {
+    visibility: visible; }
+  /* line 59, general.css.sass */
+  .header .button.link-button {
+    left: 7.1%; }
+  /* line 62, general.css.sass */
+  .header .button.mute-button {
+    left: 12%; }
+    /* line 66, general.css.sass */
+    .header .button.mute-button.muted .bg-loud,
+    .header .button.mute-button.muted .text-loud {
+      display: none; }
+    /* line 71, general.css.sass */
+    .header .button.mute-button.loud .bg-muted,
+    .header .button.mute-button.loud .text-muted {
+      display: none; }
+/* line 75, general.css.sass */
+.header .logo {
+  display: block;
+  position: fixed;
+  top: 13%;
+  right: 8%;
+  width: 12%;
+  height: 6%;
+  z-index: 300; }
+  /* line 84, general.css.sass */
+  .header .logo img {
+    max-width: 100%; }
+
+/* line 87, general.css.sass */
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 250; }
+  /* line 95, general.css.sass */
+  .border img {
+    height: 100%;
+    width: 100%; }
+
+/* line 100, general.css.sass */
+.parallax-layers img {
+  max-width: 100%; }
+/* line 103, general.css.sass */
+.parallax-layers .layer {
+  position: fixed;
+  text-align: center; }
+/* line 107, general.css.sass */
+.parallax-layers .bg-layer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+/* line 113, general.css.sass */
+.parallax-layers .sky-layer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+  /* line 119, general.css.sass */
+  .parallax-layers .sky-layer img {
+    width: 100%; }
+/* line 124, general.css.sass */
+.parallax-layers .spruces-layer:before,
+.parallax-layers .house-layer:before {
+  content: "";
+  display: block;
+  padding-top: 88%; }
+/* line 129, general.css.sass */
+.parallax-layers .spruces-layer img,
+.parallax-layers .house-layer img {
+  position: absolute;
+  bottom: 22px; }
+/* line 133, general.css.sass */
+.parallax-layers .spruces-layer {
+  width: 41.6%;
+  right: 0;
+  top: 0; }
+  /* line 138, general.css.sass */
+  .parallax-layers .spruces-layer img {
+    right: 0; }
+/* line 141, general.css.sass */
+.parallax-layers .house-layer {
+  width: 40.7%;
+  left: 0;
+  top: 0; }
+  /* line 146, general.css.sass */
+  .parallax-layers .house-layer img {
+    left: 0; }
+/* line 149, general.css.sass */
+.parallax-layers .snow-layer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+  /* line 155, general.css.sass */
+  .parallax-layers .snow-layer img {
+    width: 94%; }
+/* line 158, general.css.sass */
+.parallax-layers .snowman-left-layer {
+  width: 37.7%;
+  bottom: -4%;
+  left: -8%;
+  z-index: 230; }
+/* line 164, general.css.sass */
+.parallax-layers .snowman-right-layer {
+  width: 37.7%;
+  right: -9%;
+  bottom: -5%;
+  z-index: 230; }
+/* line 170, general.css.sass */
+.parallax-layers .snowman-center-layer {
+  -moz-transition: -moz-transform 2.5s ease-in;
+  -o-transition: -o-transform 2.5s ease-in;
+  -webkit-transition: -webkit-transform 2.5s ease-in;
+  transition: transform 2.5s ease-in;
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  transform: rotate(70deg);
+  width: 11.9%;
+  left: 95%;
+  top: 65%;
+  z-index: 200; }
+  /* line 179, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-0 {
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg); }
+  /* line 184, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-2 {
+    -moz-transition: -moz-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+  /* line 188, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-3 {
+    -moz-transition: -moz-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg); }
+  /* line 192, general.css.sass */
+  .parallax-layers .snowman-center-layer.step-4 {
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg); }
+
+/* line 196, general.css.sass */
+.badge-container {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 25.4%;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  z-index: 160; }
+  /* line 205, general.css.sass */
+  .badge-container img {
+    max-width: 100%; }
+
+/* line 208, general.css.sass */
+.flip-container {
+  perspective: 1000; }
+  /* line 212, general.css.sass */
+  .flip-container.loaded .flipper {
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg); }
+  /* line 215, general.css.sass */
+  .flip-container .flipper {
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative; }
+    /* line 221, general.css.sass */
+    .flip-container .flipper:before {
+      content: "";
+      display: block;
+      padding-top: 101%; }
+
+/* line 226, general.css.sass */
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 235, general.css.sass */
+.front {
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  z-index: 2; }
+  /* line 240, general.css.sass */
+  .front .audio-load-progress {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5vh;
+    color: #fff; }
+
+/* line 250, general.css.sass */
+.back {
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
+  /* line 253, general.css.sass */
+  .back .leds {
+    position: absolute;
+    top: -3%;
+    left: -4%;
+    width: 108%;
+    height: 107%;
+    max-width: none; }
+    /* line 261, general.css.sass */
+    .back .leds > img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  /* line 268, general.css.sass */
+  .back .flares-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    /* line 275, general.css.sass */
+    .back .flares-container .flare {
+      position: absolute;
+      width: 19%; }
+      /* line 279, general.css.sass */
+      .back .flares-container .flare.odd {
+        -moz-animation-name: pulse-odd;
+        -webkit-animation-name: pulse-odd;
+        animation-name: pulse-odd;
+        -moz-animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -moz-animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -moz-animation-direction: alternate;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -moz-animation-timing-function: ease-in-out;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out; }
+      /* line 282, general.css.sass */
+      .back .flares-container .flare.even {
+        -moz-animation-name: pulse-even;
+        -webkit-animation-name: pulse-even;
+        animation-name: pulse-even;
+        -moz-animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -moz-animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -moz-animation-direction: alternate;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -moz-animation-timing-function: ease-in-out;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out; }
+      /* line 285, general.css.sass */
+      .back .flares-container .flare.flare-1 {
+        left: -9%;
+        top: 20%; }
+      /* line 289, general.css.sass */
+      .back .flares-container .flare.flare-2 {
+        left: 4%;
+        top: 18%; }
+      /* line 293, general.css.sass */
+      .back .flares-container .flare.flare-3 {
+        left: 5%;
+        top: 3%; }
+      /* line 297, general.css.sass */
+      .back .flares-container .flare.flare-4 {
+        left: 21%;
+        top: 1%; }
+      /* line 301, general.css.sass */
+      .back .flares-container .flare.flare-5 {
+        left: 29%;
+        top: -8%; }
+      /* line 305, general.css.sass */
+      .back .flares-container .flare.flare-6 {
+        left: 42%;
+        top: -3%; }
+      /* line 309, general.css.sass */
+      .back .flares-container .flare.flare-7 {
+        left: 54%;
+        top: -6%; }
+      /* line 313, general.css.sass */
+      .back .flares-container .flare.flare-8 {
+        left: 67%;
+        top: 0%; }
+      /* line 317, general.css.sass */
+      .back .flares-container .flare.flare-9 {
+        left: 76%;
+        top: 9%; }
+      /* line 321, general.css.sass */
+      .back .flares-container .flare.flare-10 {
+        left: 87%;
+        top: 17%; }
+      /* line 325, general.css.sass */
+      .back .flares-container .flare.flare-11 {
+        left: 86%;
+        top: 31%; }
+      /* line 329, general.css.sass */
+      .back .flares-container .flare.flare-12 {
+        left: 92%;
+        top: 45%; }
+      /* line 333, general.css.sass */
+      .back .flares-container .flare.flare-13 {
+        left: 81%;
+        top: 53%; }
+      /* line 337, general.css.sass */
+      .back .flares-container .flare.flare-14 {
+        left: 83%;
+        top: 68%; }
+      /* line 341, general.css.sass */
+      .back .flares-container .flare.flare-15 {
+        left: 72%;
+        top: 74%; }
+      /* line 345, general.css.sass */
+      .back .flares-container .flare.flare-16 {
+        left: 65%;
+        top: 86%; }
+      /* line 349, general.css.sass */
+      .back .flares-container .flare.flare-17 {
+        left: 49%;
+        top: 81%; }
+      /* line 353, general.css.sass */
+      .back .flares-container .flare.flare-18 {
+        left: 37%;
+        top: 91%; }
+      /* line 357, general.css.sass */
+      .back .flares-container .flare.flare-19 {
+        left: 26%;
+        top: 82%; }
+      /* line 361, general.css.sass */
+      .back .flares-container .flare.flare-20 {
+        left: 11%;
+        top: 81%; }
+      /* line 365, general.css.sass */
+      .back .flares-container .flare.flare-21 {
+        left: 2%;
+        top: 71%; }
+      /* line 369, general.css.sass */
+      .back .flares-container .flare.flare-22 {
+        left: 3%;
+        top: 59%; }
+      /* line 373, general.css.sass */
+      .back .flares-container .flare.flare-23 {
+        left: -8%;
+        top: 46%; }
+      /* line 377, general.css.sass */
+      .back .flares-container .flare.flare-24 {
+        left: -3%;
+        top: 36%; }
