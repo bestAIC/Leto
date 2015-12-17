@@ -639,9 +639,9 @@ body {
 .header .logo {
   display: block;
   position: fixed;
-  top: 13%;
+  top: 10%;
   right: 8%;
-  width: 12%;
+  width: 14%;
   height: 6%;
   z-index: 300; }
   /* line 84, general.css.sass */
